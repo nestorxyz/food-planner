@@ -1,0 +1,195 @@
+{
+  "currentWeek": {
+    "id": "5EjnOQK2iV",
+    "weekNumber": 2,
+    "year": 2026,
+    "startDate": "2026-01-05",
+    "endDate": "2026-01-11",
+    "createdAt": "2026-01-11T18:29:12.709Z",
+    "meals": [
+      {
+        "day": "Lunes",
+        "breakfast": {
+          "drink": {
+            "id": "drink-1c",
+            "name": "Café",
+            "emoji": "☕"
+          },
+          "bread": {
+            "id": "bread-3",
+            "name": "Pan con Jamón y Queso",
+            "filling": "Jamón y Queso",
+            "emoji": "🥪"
+          },
+          "fruit": {
+            "id": "fruit-2",
+            "name": "Plátano",
+            "emoji": "🍌"
+          }
+        },
+        "lunch": {
+          "id": "lunch-1",
+          "name": "Lentejas",
+          "emoji": "🍲"
+        }
+      },
+      {
+        "day": "Martes",
+        "breakfast": {
+          "drink": {
+            "id": "drink-6",
+            "name": "Té",
+            "emoji": "🍵"
+          },
+          "bread": {
+            "id": "bread-1",
+            "name": "Pan con Palta",
+            "filling": "Palta",
+            "emoji": "🥑"
+          },
+          "fruit": {
+            "id": "fruit-5",
+            "name": "Piña",
+            "emoji": "🍍"
+          }
+        },
+        "lunch": {
+          "id": "lunch-9",
+          "name": "Pollo a la Brasa",
+          "emoji": "🍗"
+        }
+      },
+      {
+        "day": "Miércoles",
+        "breakfast": {
+          "drink": {
+            "id": "drink-9",
+            "name": "Chocolate Caliente",
+            "emoji": "🍫"
+          },
+          "bread": {
+            "id": "bread-5",
+            "name": "Pan con Mermelada",
+            "filling": "Mermelada",
+            "emoji": "🍓"
+          },
+          "fruit": {
+            "id": "fruit-7",
+            "name": "Mandarina",
+            "emoji": "🍊"
+          }
+        },
+        "lunch": {
+          "id": "lunch-3",
+          "name": "Arroz con Pollo",
+          "emoji": "🍗"
+        }
+      },
+      {
+        "day": "Jueves",
+        "breakfast": {
+          "drink": {
+            "id": "drink-2",
+            "name": "Jugo de Naranja",
+            "emoji": "🍊"
+          },
+          "bread": {
+            "id": "bread-4",
+            "name": "Pan con Mantequilla",
+            "filling": "Mantequilla",
+            "emoji": "🧈"
+          },
+          "fruit": {
+            "id": "fruit-8",
+            "name": "Fresas",
+            "emoji": "🍓"
+          }
+        },
+        "lunch": {
+          "id": "lunch-10",
+          "name": "Pescado Frito",
+          "emoji": "🐠"
+        }
+      },
+      {
+        "day": "Viernes",
+        "breakfast": {
+          "drink": {
+            "id": "drink-7",
+            "name": "Jugo de Piña",
+            "emoji": "🍍"
+          },
+          "bread": {
+            "id": "bread-2",
+            "name": "Pan con Huevo",
+            "filling": "Huevo Revuelto",
+            "emoji": "🍳"
+          },
+          "fruit": {
+            "id": "fruit-4",
+            "name": "Sandía",
+            "emoji": "🍉"
+          }
+        },
+        "lunch": {
+          "id": "lunch-11",
+          "name": "Estofado de Pollo",
+          "emoji": "🍲"
+        }
+      },
+      {
+        "day": "Sábado",
+        "breakfast": {
+          "drink": {
+            "id": "drink-8",
+            "name": "Smoothie de Frutas",
+            "emoji": "🥤"
+          },
+          "bread": {
+            "id": "bread-6",
+            "name": "Pan con Aceituna",
+            "filling": "Aceituna",
+            "emoji": "🫒"
+          },
+          "fruit": {
+            "id": "fruit-6",
+            "name": "Uvas",
+            "emoji": "🍇"
+          }
+        },
+        "lunch": {
+          "id": "lunch-2",
+          "name": "Ají de Gallina",
+          "emoji": "🍛"
+        }
+      },
+      {
+        "day": "Domingo",
+        "breakfast": {
+          "drink": {
+            "id": "drink-1b",
+            "name": "Café",
+            "emoji": "☕"
+          },
+          "bread": {
+            "id": "bread-7",
+            "name": "Pan con Pollo",
+            "filling": "Pollo Deshilachado",
+            "emoji": "🍗"
+          },
+          "fruit": {
+            "id": "fruit-3",
+            "name": "Manzana",
+            "emoji": "🍎"
+          }
+        },
+        "lunch": {
+          "id": "lunch-6",
+          "name": "Tallarines Verdes",
+          "emoji": "🍝"
+        }
+      }
+    ]
+  },
+  "previousWeeks": []
+}
