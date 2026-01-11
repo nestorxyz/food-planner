@@ -96,6 +96,38 @@ export function generateWeeklyMealPlan(): WeeklyMealPlan {
 }
 
 /**
+ * Generate a variation of an existing weekly meal plan
+ * Uses the same dates and week info as the original plan
+ */
+export function generateVariation(originalPlan: WeeklyMealPlan): WeeklyMealPlan {
+  // Generate randomized selections for the week
+  const weekBreads = getRandomItemsForWeek(BREAKFAST_BREADS, 7);
+  const weekFruits = getRandomItemsForWeek(BREAKFAST_FRUITS, 7);
+  const weekDrinks = getRandomItemsForWeek(BREAKFAST_DRINKS, 7);
+  const weekLunches = getRandomItemsForWeek(LUNCHES, 7);
+
+  const meals: DayMeal[] = DAYS_OF_WEEK.map((day, index) => ({
+    day,
+    breakfast: {
+      drink: weekDrinks[index],
+      bread: weekBreads[index],
+      fruit: weekFruits[index],
+    },
+    lunch: weekLunches[index],
+  }));
+
+  return {
+    id: nanoid(10),
+    weekNumber: originalPlan.weekNumber,
+    year: originalPlan.year,
+    startDate: originalPlan.startDate,
+    endDate: originalPlan.endDate,
+    createdAt: new Date().toISOString(),
+    meals,
+  };
+}
+
+/**
  * Format date for display (e.g., "Ene 6 - Ene 12, 2025")
  */
 export function formatWeekRange(startDate: string, endDate: string): string {

@@ -39,6 +39,8 @@ export interface WeeklyMealPlan {
   endDate: string; // ISO date string
   createdAt: string; // ISO timestamp
   meals: DayMeal[];
+  variations?: WeeklyMealPlan[]; // Variations of the same week
+  selectedVariationId?: string; // ID of the currently selected variation
 }
 
 // History structure
